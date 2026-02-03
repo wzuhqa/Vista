@@ -1,0 +1,26 @@
+{
+  "name": "vista-travel-website",
+  "version": "1.0.0",
+  "description": "Vista - A modern, responsive travel website with advanced animations and effects",
+  "main": "script.js",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Build complete - ready for deployment'",
+    "deploy": "npm run build && npx gh-pages -d .",
+    "deploy:github": "npm run build && echo 'Deploy to GitHub Pages manually: https://docs.github.com/en/pages/getting-started-with-github-pages'"
+  },
+  "keywords": [
+    "travel",
+    "tourism",
+    "adventure",
+    "responsive",
+    "animations",
+    "modern"
+  ],
+  "author": "Vista Team",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.1.0",
+    "serve": "^14.2.0"
+  }
+}
